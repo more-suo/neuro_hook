@@ -15,25 +15,6 @@ class Scraper:
         self.__driver = webdriver.Firefox()
         self.__driver.get(self.__url)
 
-    @staticmethod
-    def setup_driver():
-        print("scraper: setting up the driver")
-        # get the Firefox profile object
-        firefox_profile = FirefoxProfile()
-        # Disable CSS
-        firefox_profile.set_preference("permissions.default.stylesheet", 2)
-        # Disable images
-        firefox_profile.set_preference("permissions.default.image", 2)
-        # Disable Flash
-        # firefox_profile.set_preference(
-        #     "dom.ipc.plugins.enabled.libflashplayer.so", "false"
-        # )
-
-        options = webdriver.FirefoxOptions()
-        # options.headless = True
-        driver = webdriver.Firefox(options=options, firefox_profile=firefox_profile)
-        return driver
-
     def load_more_articles(
         self, iterations: int = 1, load_more_button: str = "btn-load-more"
     ):
