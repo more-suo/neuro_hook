@@ -1,32 +1,57 @@
 from time import sleep
-from datetime import datetime
-from urllib.parse import urlparse
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import ElementClickInterceptedException
+from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
+
+from src.scraper.utils import get_timestamp_now, get_domain_name_from_url
 
 
 class Scraper:
     def __init__(self, url: str):
         self.__url = url
-        self.__medium_name = urlparse(self.__url).netloc.replace(".", "-")
+        self.__medium_name = get_domain_name_from_url(url)
         self.__driver = webdriver.Firefox()
         self.__driver.get(self.__url)
+
+    @staticmethod
+    def setup_driver():
+        print("scraper: setting up the driver")
+        # get the Firefox profile object
+        firefox_profile = FirefoxProfile()
+        # Disable CSS
+        firefox_profile.set_preference("permissions.default.stylesheet", 2)
+        # Disable images
+        firefox_profile.set_preference("permissions.default.image", 2)
+        # Disable Flash
+        # firefox_profile.set_preference(
+        #     "dom.ipc.plugins.enabled.libflashplayer.so", "false"
+        # )
+
+        options = webdriver.FirefoxOptions()
+        # options.headless = True
+        driver = webdriver.Firefox(options=options, firefox_profile=firefox_profile)
+        return driver
 
     def load_more_articles(
         self, iterations: int = 1, load_more_button: str = "btn-load-more"
     ):
+        print("scraper: starting to load the articles")
         latest_button = self.__driver.find_element(By.CLASS_NAME, load_more_button)
         error_counter = 0
 
-        for _ in range(iterations):
-            sleep(0.5)
+        for i in range(iterations):
+            sleep(.5)
+            if i % 5 == 0:
+                print(f"scraper: {i}/{iterations}")
             try:
                 latest_button.click()
             except ElementClickInterceptedException:
-                print("scraper: fuck the element click intercepted exception!")
                 error_counter += 1
+                print(
+                    f"scraper: fuck the element click intercepted exception! ({error_counter})"
+                )
                 continue
 
         print(
@@ -37,11 +62,12 @@ class Scraper:
         page_source = self.__driver.page_source
 
         if name is None:
-            timestamp = datetime.now().strftime("%d-%b-%Y_%H-%M-%S")
-            name = f"{self.__medium_name}_{timestamp}.html"
+            timestamp = get_timestamp_now()
+            name = f"saved_pages/{self.__medium_name}_{timestamp}.html"
 
-        with open(f"saved_pages/{name}", "w") as file:
+        with open(name, "w") as file:
             file.write(page_source)
 
         print(f"scraper: the file was saved here: {name}")
+        self.__driver.close()
         return name
