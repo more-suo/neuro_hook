@@ -1,0 +1,128 @@
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+Info  | RdCoroutineScope          | 16:JobScheduler FJ pool 3/7 | RdCoroutineHost overridden 
+2022-09-24 00:23:23,178 [   2803]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,206 [   2831]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,219 [   2844]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,229 [   2854]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,237 [   2862]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,245 [   2870]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,252 [   2877]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,257 [   2882]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,261 [   2886]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,266 [   2891]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,270 [   2895]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,274 [   2899]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,279 [   2904]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,288 [   2913]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,293 [   2918]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,301 [   2926]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,308 [   2933]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,314 [   2939]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,319 [   2944]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:23,324 [   2949]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2022-09-24 00:23:26,820 [   6445]   WARN - #g.r.GitUntrackedFilesHolder - Ignoring unversioned file under another root: /home/akbar/IdeaProjects/neuro_hook/src/__pycache__/config.cpython-38.pyc; root: /home/akbar/IdeaProjects/neuro_hook; mapped root: null
+2022-09-24 00:23:26,821 [   6446]   WARN - #g.r.GitUntrackedFilesHolder - Ignoring unversioned file under another root: /home/akbar/IdeaProjects/neuro_hook/src/scraper/__pycache__/scraper.cpython-38.pyc; root: /home/akbar/IdeaProjects/neuro_hook; mapped root: null
+2022-09-24 00:23:26,822 [   6447]   WARN - #g.r.GitUntrackedFilesHolder - Ignoring unversioned file under another root: /home/akbar/IdeaProjects/neuro_hook/src/scraper/__pycache__/utils.cpython-38.pyc; root: /home/akbar/IdeaProjects/neuro_hook; mapped root: null
+2022-09-24 00:23:33,553 [  13178]   WARN - #c.i.o.a.i.ActionUpdater - 1082 ms to call on BGT RunContextAction#update@EditorPopup (com.intellij.execution.actions.RunContextAction)
+2022-09-24 00:23:33,553 [  13178]   WARN - #c.i.o.a.i.ActionUpdater - 2054 ms to call on BGT RunContextAction#update@EditorPopup (com.intellij.execution.actions.RunContextAction)
+2022-09-24 00:23:40,498 [  20123]   WARN - #c.j.p.s.s.PySkeletonRefresher - Some skeletons failed to generate
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.__init__
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.brackets
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.cache
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.comments
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.const
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.handle_ipynb_magics
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.linegen
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.lines
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.mode
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.nodes
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.numerics
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.parsing
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.rusty
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.strings
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - black.trans
+2022-09-24 00:23:40,499 [  20124]   WARN - #c.j.p.s.s.PySkeletonRefresher - blib2to3.pgen2.conv
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - clang.native.libclang
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.compiler.tf2tensorrt._pywrap_py_utils
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.compiler.tf2xla.ops._xla_ops
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.core.kernels.libtfkernel_sobol_op
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.lite.experimental.microfrontend.python.ops._audio_microfrontend_op
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.lite.python.analyzer_wrapper._pywrap_analyzer_wrapper
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.lite.python.interpreter_wrapper._pywrap_tensorflow_interpreter_wrapper
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.lite.python.metrics._pywrap_tensorflow_lite_metrics_wrapper
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.lite.python.optimize._pywrap_tensorflow_lite_calibration_wrapper
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_dtensor_device
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_mlir
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_parallel_device
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_py_exception_registry
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_quantize_training
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_sanitizers
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_tensorflow_internal
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_tfcompile
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_tfe
+2022-09-24 00:23:40,500 [  20125]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python._pywrap_toco_api
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.autograph.impl.testing.pybind_for_testing
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.client._pywrap_debug_events_writer
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.client._pywrap_device_lib
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.client._pywrap_events_writer
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.client._pywrap_tf_session
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.data.experimental.service._pywrap_server_lib
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.data.experimental.service._pywrap_utils
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.flags_pybind
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._dtypes
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._errors_test_helper
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._op_def_library_pybind
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._op_def_registry
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._op_def_util
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._proto_comparators
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._python_memory_checker_helper
+2022-09-24 00:23:40,501 [  20126]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._pywrap_python_api_dispatcher
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._pywrap_python_api_info
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._pywrap_python_api_parameter_converter
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._pywrap_python_op_gen
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework._test_metrics_util
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.framework.fast_tensor_util
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.grappler._pywrap_tf_cluster
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.grappler._pywrap_tf_item
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.grappler._pywrap_tf_optimizer
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.lib.core._pywrap_bfloat16
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.lib.core._pywrap_py_func
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.lib.io._pywrap_file_io
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.lib.io._pywrap_record_io
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.platform._pywrap_cpu_feature_guard
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.platform._pywrap_stacktrace_handler
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.platform._pywrap_tf2
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.profiler.internal._pywrap_profiler
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.profiler.internal._pywrap_traceme
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.saved_model.pywrap_saved_model
+2022-09-24 00:23:40,502 [  20127]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_checkpoint_reader
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_determinism
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_kernel_registry
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_nest
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_stat_summarizer
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_tensor_float_32_execution
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_tfprof
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_transform_graph
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_util_port
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._pywrap_utils
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util._tf_stack
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow.python.util.fast_module_type
+2022-09-24 00:23:40,503 [  20128]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_io_gcs_filesystem.core.python.ops.libtensorflow_io_gcs_filesystem
+2022-09-24 00:23:44,926 [  24551]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:25:04,391 [ 104016]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:28:37,729 [ 317354]   WARN - #c.i.u.x.Binding - no accessors for org.jetbrains.idea.perforce.perforce.ConnectionId
+2022-09-24 00:29:25,483 [ 365108]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:30:25,844 [ 425469]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:30:29,728 [ 429353]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:31:29,643 [ 489268]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:31:34,068 [ 493693]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:36:36,522 [ 796147]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:36:40,854 [ 800479]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:43:07,066 [1186691]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:44:36,758 [1276383]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:45:39,004 [1338629]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:46:33,694 [1393319]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:53:23,827 [1803452]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 00:53:28,697 [1808322]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 01:00:47,936 [2247561]   WARN - #c.j.p.r.PythonCommandLineState - Python interpreter flavor is not taken into account while initializing Python path
+2022-09-24 01:02:14,002 [2333627]   WARN - #c.i.d.PerformanceWatcherImpl - UI was frozen for 28368ms, details saved to /home/akbar/.cache/JetBrains/IntelliJIdea2022.2/log/threadDumps-freeze-20220924-010150-IU-222.4167.29-28sec
